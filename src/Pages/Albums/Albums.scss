@@ -1,0 +1,21 @@
+@import '../../mixins.scss';
+
+.albums {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.albums_list {
+  background-color: black;
+
+  a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #262626;
+    }
+  }
+}

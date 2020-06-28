@@ -1,0 +1,23 @@
+@import '../../mixins.scss';
+
+.album_info {
+  text-align: center;
+  width: 400px;
+
+  @include sm {
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+
+.albums_list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid #2b2b2b;
+
+  @include sm {
+    justify-content: left;
+  }
+}
+
